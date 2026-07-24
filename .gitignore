@@ -1,0 +1,13 @@
+# Ignore all
+*
+
+#Exceptions
+!.gitignore
+!LICENSE
+!README.md
+!ddl/
+!ddl/*.sql
+!dml/
+!dml/*.sql
+!dql/
+!dql/*.sql
