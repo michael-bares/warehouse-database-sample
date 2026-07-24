@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS products (
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    ean TEXT NOT NULL UNIQUE,
+    brand TEXT NOT NULL,
+    height REAL NOT NULL,
+    width REAL NOT NULL,
+    depth REAL NOT NULL,
+    weight REAL NOT NULL
+);
